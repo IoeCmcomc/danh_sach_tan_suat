@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Danh sách tần suất các từ tiếng Việt</title>
-    <meta name="description" content="Danh sách các từ tiếng Việt được sắp xếp theo mức độ phổ biến.">
+    <meta name="description" content="Danh sách các từ tiếng Việt được sắp xếp theo mức độ phổ biến. A Vietnamese frequency dictionary.">
     <meta name="author" content="IoeCmcomc">
 
     <meta property="og:title" content="Danh sách tần suất các từ tiếng Việt">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ioecmcomc.github.io/danh_sach_tan_suat/">
-    <meta property="og:description" content="Danh sách các từ tiếng Việt được sắp xếp theo mức độ phổ biến.">
+    <meta property="og:description" content="Danh sách các từ tiếng Việt được sắp xếp theo mức độ phổ biến. A Vietnamese frequency dictionary.">
     <!-- <meta property="og:image" content=""> -->
 
     <!-- <link rel="icon" href="/favicon.ico"> -->
@@ -48,14 +48,12 @@
     <main class="flex-strink-0">
         <div class="container">
             <div class="p-4 d-flex flex-column align-items-center">
-                <h1 class="display-4 fw-normal"> Danh sách tần suất các từ tiếng Việt </h1>
+                <h1 class="display-4 fw-normal"> Từ điển tần suất tiếng Việt </h1>
                 <span class="lead">
                     Danh sách các từ tiếng Việt được sắp xếp theo mức độ phổ biến.
                 </span>
                 <span class="text-muted text-center">
-                    Danh sách này bao gồm cả từ đơn, từ phức và danh từ riêng, được liên kết đến mục từ điển tương ứng
-                    (nếu có). Một số tiếng không có nghĩa hoặc cụm từ có thể xuất hiện trong danh sách do hạn chế của
-                    các chương trình tách từ hiện nay.
+                    Trang web này sẽ giúp bạn tra cứu và tìm kiếm các từ tiếng Việt theo tần suất xuất hiện của chúng trong các văn bản tiếng Việt. 
                 </span>
             </div>
             <div id="main" class="py-3">
@@ -2001,6 +1999,13 @@
                         </tr>
                     </tbody>
                 </table>
+            </div>
+            <div>
+                <h2>Giới thiệu</h2>
+                <p>Danh sách tần suất, hay còn gọi là từ điển tần suất (frequency dictionary), là danh sách các từ vựng trong tiếng Việt được sắp xếp theo tần suất xuất hiện của từng từ trong các văn bản.</p>
+                <img src="image/wordcloud.svg" alt="Đám mây từ" class="img-fluid mb-3 d-block mx-auto" style="max-width: 500px;">
+                <p>Danh sách này bao gồm cả từ đơn, từ phức và danh từ riêng, được liên kết đến mục từ điển tương ứng (nếu có). Một số tiếng có nghĩa hoặc cụm từ có thể xuất hiện trong danh sách do hạn chế của các chương trình tách từ hiện nay.</p>
+                <p>Danh sách này được tạo ra bẳng cách đếm các từ trong các kho ngữ liệu báo chí, văn học, nghệ thuật có sẵn và các văn bản từ một số trang web tiếng Việt khác mà tôi tự tổng hợp. Để lấy được các từ ghép, các văn bản được tách từ (word segmentation) bằng các thư viện xử lí ngôn ngữ tự nhiên như Underthesea, VNCoreNLP, UITws và pyvi. Sau đó, các mục từ không hợp lệ, bao gồm các tổ hợp từ ngữ không phải tiếng Việt, bị loại bỏ.</p>
             </div>
         </div>
     </main>
